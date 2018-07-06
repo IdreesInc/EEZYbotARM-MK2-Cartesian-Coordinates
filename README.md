@@ -51,7 +51,7 @@ The MINIMUM and MAXIMUM constants refer to the minimum and maximum degrees the s
 Besides the [EEZYbotARM MK2](https://www.thingiverse.com/thing:1454048), I use a Raspberry Pi and the [Adafruit Servo Hat](https://www.adafruit.com/product/2327). However, you could definitely get away with just porting the code over to whatever system you use as long as you have got a way to set the servo angles (or can do the frequency math on the fly).
 ### Why?
 Because I want to be able to accurately move my robotic arm by millimeter values rather than trying to guess the necessary angles to set the arm. This is for my project [Dave](https://github.com/IdreesInc/Dave), which is a game playing robotic arm. As such, it needs super accurate movements otherwise it won't be able to do much of anything.
-### Why can't you move the arm left or right via coordinates?
+### Why can't I move the arm left or right via coordinates?
 This coordinate system is 2D, which means that you can only move the arm itself and not the base. To move the base, just adjust the rot_servo's angle.
 ### Is this being updated?
 Not really, as it is just a snippet of code from the aforementioned [Dave](https://github.com/IdreesInc/Dave) project. Except for bug fixes, don't expect much more complexity with this project than there already is.
