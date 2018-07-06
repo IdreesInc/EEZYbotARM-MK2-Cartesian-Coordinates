@@ -52,7 +52,7 @@ Besides the [EEZYbotARM MK2](https://www.thingiverse.com/thing:1454048), I use a
 ### Why?
 Because I want to be able to accurately move my robotic arm by millimeter values rather than trying to guess the necessary angles to set the arm. This is for my project [Dave](https://github.com/IdreesInc/Dave), which is a game playing robotic arm. As such, it needs super accurate movements otherwise it won't be able to do much of anything.
 ### Why can't you move the arm left or right via coordinates?
-This coordinate system is 2D, which means that you can only move the arm itself and not the base. To move the base, just adjust the rot_servo's angle. I made it this way because 3D coordinates are not only entirely unnecessary for my use case, but actually make my life harder as just rotating the base is a lot more accurate and requires a lot less math. In the end, this coordinate system is really just a cylinder in the end.
+This coordinate system is 2D, which means that you can only move the arm itself and not the base. To move the base, just adjust the rot_servo's angle.
 ### Is this being updated?
 Not really, as it is just a snippet of code from the aforementioned [Dave](https://github.com/IdreesInc/Dave) project. Except for bug fixes, don't expect much more complexity with this project than there already is.
 ### Can I use this in my code?
