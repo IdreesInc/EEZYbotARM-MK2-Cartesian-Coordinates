@@ -59,4 +59,4 @@ Not really, as it is just a snippet of code from the aforementioned [Dave](https
 Yup! The MIT license is super permissive, which means you can basically use it however you like. I would like to know if you use it so I can feel all warm and fuzzy inside knowing someone is using my code (as well as find potential bugs), and you can even attribute me if you are feeling particularly generous, but you are free to do whatever you want. Unless you are creating a terminator. Don't do that.
 
 <br/>
-<p align="center"><a href="http://idreesinc.com"><img src="http://idreesinc.com/images/logo_transparent.png" width=200 height=200></a></p>
+<p align="center"><a href="https://idreesinc.com?utm_source=github&utm_medium=readme&utm_campaign=dave"><img src="https://idreesinc.com/images/logo/logo-transparent.png" width=200 height=200></a></p>
